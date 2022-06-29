@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\prengaa\OneDrive - Titan Cement Company SA\Documents\CodingDojo\Javascript\Dojo Weather\style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <div class="firstNav flex justify-space">
+            <h1>DojoWeather</h1>
+            <div class="rightNav flex justify-space"><h3 onclick="loading()">Burbank</h3><h3 onclick="loading()">Chicgo</h3><h3 onclick="loading()">Dallas</h3></div> 
+        </div>
+        <div class="secondNav flex justify-space">
+            <h1>San Jose</h1>
+            <p>show temperature in </p>
+            <select name="language" aria-label="Select Temp" id="language">
+                <option value="c">°C</option>
+                <option value="f">°F</option>
+            </select>
+        </div>
+    </nav>
+    <div class="main flex justify-space list-style">
+        <ul class="list-style align column align">
+            <li>Today</li>
+            <li ><img class="img" src="assets\some_rain.png" alt="" ></li>
+            <li>Some rain</li>
+            <li class="number flex justify-space"><p>24°</p><p>18°</p></li>
+        </ul>
+        <ul class="list-style column justify-space align">
+            <li>Tomorrow</li>
+            <li ><img class="img" src="assets\some_sun.png" alt=""></li>
+            <li>some sun</li>
+            <li class="number flex justify-space"><p>27°</p><p>19°</p></li>
+        </ul>
+        <ul class="list-style column justify-space align">
+            <li>Friday</li>
+            <li ><img class="img" src="assets\some_clouds.png" alt=""></li>
+            <li>some clouds</li>
+            <li class="number flex justify-space"><p>21°</p><p>16°</p></li>
+        </ul>
+        <ul class="list-style column justify-space align">
+            <li>Saturday</li>
+            <li ><img class="img" src="assets\some_sun.png" alt=""></li>
+            <li>some sun</li>
+            <li class="number flex justify-space" ><p>26°</p><p>21°</p></li>
+        </ul>
+    </div>
+    <footer class="flex justify-space">
+        <img src="assets\cookie.png" alt="">
+        <div>
+        <h3>Stop!Cookie time</h3>
+        <p>We use cookies (sadly not the edible ones) to personalize </p>
+        <p> content and ads, to provide social media features and to </p> 
+        <p>analyse our traffic. <a href="#">Read more...</a></p>
+       
+    </div>
+        <button onclick="hide()">I Accept</button>
+
+    </footer>
+    <script src="C:\Users\prengaa\OneDrive - Titan Cement Company SA\Documents\CodingDojo\Javascript\Dojo Weather\script.js"></script>
+</body>
+</html>
